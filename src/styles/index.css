@@ -1,11 +1,47 @@
-/* 
+body {
+background-color: grey;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.cable {
+    background-color: black;
+    width: 20px;
+    height: 120px;
+    display:flex;
+    margin: auto;
+}
 
-*/
+.trafficLight {
+    background-color: black;
+    width: 150px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:auto;
+    border-radius: 4%;
+
+}
+
+.light {
+    border-radius: 50%;
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    margin: auto;
+}
+
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+
+.on {
+   box-shadow: -3px 4px 27px 21px rgba(255,249,157,1);
+-webkit-box-shadow: -3px 4px 27px 21px rgba(255,249,157,1);
+-moz-box-shadow: -3px 4px 27px 21px rgba(255,249,157,1);
+}
